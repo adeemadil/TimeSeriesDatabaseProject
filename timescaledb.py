@@ -1,6 +1,8 @@
-from influxdb import InfluxDBClient
-#client = InfluxDBClient(host='localhost', port=8086)
+API_URL = 'https://paper-api.alpaca.markets'
+API_KEY = 'PKBXYK2166K2OFCPUIBM'
+API_SECRET = 'JWwn0Oud2kVclVVMH2Hw7FMRPxufYegfnAJ4EXQH'
 
-client = InfluxDBClient(host='mydomain.com', port=8086, username='myuser', password='mypass', ssl=True, verify_ssl=True)
-
-client.create_database('pyexample')
+DB_HOST = 'localhost'
+DB_USER = 'postgres'
+DB_PASS = 'password'
+DB_NAME = 'etfdb'
